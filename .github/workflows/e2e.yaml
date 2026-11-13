@@ -17,6 +17,7 @@ defaults:
 jobs:
   kubernetes:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     services:
       registry:
         image: registry:3
